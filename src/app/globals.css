@@ -16,12 +16,20 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #061123;
+  color: #edf3fc;
+}
+
+.mask {
+  background: radial-gradient(
+    circle at var(--mouse-x) var(--mouse-y),
+    hsla(208, 88%, 18%, 0.8),
+    transparent,
+    150px
+  );
 }
