@@ -4,7 +4,8 @@ import * as React from "react";
 
 export default function About() {
   return (
-    <div id="about" className="px-6 pt-32">
+    <div id="about" className="lg:px-6 pt-12 lg:pt-32">
+      <h2 className="tracking-widest text-lg font-bold lg:hidden">About</h2>
       <p className="opacity-70">
         My name is Muhammad Yusuf Donny Satriyo, you can call me Donny. I am an
         aspiring web developer from Indonesia. I currently using React with
