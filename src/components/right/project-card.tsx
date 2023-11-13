@@ -12,7 +12,7 @@ export default function ProjectCard() {
   return (
     <div className="flex flex-col gap-4 lg:group/list">
       <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 transition-all cursor-pointer px-6 py-6 rounded-sm group/xclone group-hover/list:opacity-50 hover:!opacity-100">
-        <div className="flex w-full gap-6 items-start">
+        <div className="md:flex w-full md:gap-6 items-start">
           <Image
             className="rounded-sm object-contain"
             src={xclone}
@@ -38,7 +38,7 @@ export default function ProjectCard() {
       </div>
       {/*  */}
       <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 transition-all cursor-pointer px-6 py-6 rounded-sm group/typetest group-hover/list:opacity-50 hover:!opacity-100">
-        <div className="flex w-full gap-6 items-start">
+        <div className="md:flex w-full md:gap-6 items-start">
           <Image
             className="rounded-sm object-contain"
             src={typing}
@@ -63,7 +63,7 @@ export default function ProjectCard() {
       </div>
       {/*  */}
       <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 transition-all cursor-pointer px-6 py-6 rounded-sm group/quran group-hover/list:opacity-50 hover:!opacity-100">
-        <div className="flex w-full gap-6 items-start">
+        <div className="md:flex w-full md:gap-6 items-start">
           <Image
             className="rounded-sm object-contain"
             src={quran}
@@ -88,7 +88,7 @@ export default function ProjectCard() {
       </div>
       {/*  */}
       <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 transition-all cursor-pointer px-6 py-6 rounded-sm group/dictionary group-hover/list:opacity-50 hover:!opacity-100">
-        <div className="flex w-full gap-6 items-start">
+        <div className="md:flex w-full md:gap-6 items-start">
           <Image
             className="rounded-sm object-contain"
             src={dictionary}

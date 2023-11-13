@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-12 xl:px-40">
+      <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-8 xl:px-40">
         <LeftWrapper />
         <RightWrapper />
       </main>
