@@ -1,14 +1,11 @@
 "use client";
 
 import * as React from "react";
-import { useMediaQuery } from "@uidotdev/usehooks";
 
 import LeftWrapper from "@/components/left/left-wrapper";
 import RightWrapper from "@/components/right/right-wrapper";
 
 export default function Home() {
-  const isMobile = useMediaQuery("only screen and (max-width : 1024px)");
-
   React.useEffect(() => {
     document.addEventListener("pointermove", (e) => {
       let mouseX = e.clientX;
@@ -16,11 +13,9 @@ export default function Home() {
       let circleX = (mouseX / document.body.clientWidth) * 100;
       let circleY = (mouseY / document.body.clientHeight) * 100;
 
-      if (!isMobile) {
-        document.body.style.backgroundImage = `radial-gradient(circle 440px at ${circleX}% ${circleY}%, #091b38 0%, transparent)`;
-      }
+      document.body.style.backgroundImage = `radial-gradient(circle 440px at ${circleX}% ${circleY}%, #091b38 0%, transparent)`;
     });
-  }, [isMobile]);
+  }, []);
 
   return (
     <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-8 xl:px-40">
