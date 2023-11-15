@@ -1,31 +1,33 @@
 "use client";
 
 import * as React from "react";
-import gsap from "gsap";
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 import LeftWrapper from "@/components/left/left-wrapper";
 import RightWrapper from "@/components/right/right-wrapper";
 
 export default function Home() {
+  const isMobile = useMediaQuery("only screen and (max-width : 1024px)");
+
   React.useEffect(() => {
-    document.addEventListener("pointermove", (pos) => {
-      let x = gsap.utils.mapRange(0, window.innerWidth, 0, 100, pos.clientX);
-      let y = gsap.utils.mapRange(0, window.innerHeight, 0, 100, pos.clientY);
-      gsap.set(".mask", {
-        "--mouse-x": x + "%",
-      });
-      gsap.set(".mask", {
-        "--mouse-y": y + "%",
-      });
+    document.addEventListener("pointermove", (e) => {
+      let mouseX = e.clientX;
+      let mouseY = e.clientY;
+      let circleX = (mouseX / document.body.clientWidth) * 100;
+      let circleY = (mouseY / document.body.clientHeight) * 100;
+
+      if (!isMobile) {
+        document.body.style.backgroundImage = `radial-gradient(circle 440px at ${circleX}% ${circleY}%, #091b38 0%, transparent)`;
+      }
     });
-  }, []);
+  }, [isMobile]);
 
   return (
-    <div className="">
-      <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-8 xl:px-40">
+    <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-8 xl:px-40">
+      <div className="lg:h-full lg:w-full lg:sticky lg:top-0">
         <LeftWrapper />
-        <RightWrapper />
-      </main>
-    </div>
+      </div>
+      <RightWrapper />
+    </main>
   );
 }
