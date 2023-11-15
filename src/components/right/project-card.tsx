@@ -10,7 +10,7 @@ import dictionary from "../../../public/dictionary.png";
 
 export default function ProjectCard() {
   return (
-    <div className="flex flex-col gap-8 lg:gap-4 lg:group/list">
+    <div className="flex flex-col gap-8 lg:gap-4 group/list">
       <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/xclone lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
         <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
           <Image
