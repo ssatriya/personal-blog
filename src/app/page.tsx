@@ -4,6 +4,8 @@ import * as React from "react";
 
 import LeftWrapper from "@/components/left/left-wrapper";
 import RightWrapper from "@/components/right/right-wrapper";
+import { Github, Linkedin, Twitter } from "lucide-react";
+import { Icons } from "@/components/icons";
 
 export default function Home() {
   React.useEffect(() => {
@@ -18,9 +20,22 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-8 xl:px-40">
+    <main className="w-full lg:flex max-w-lg:flex-col min-h-screen justify-between xl:container mx-auto px-8 xl:px-24">
       <div className="lg:h-full lg:w-full lg:sticky lg:top-0">
-        <LeftWrapper />
+        <div className="flex flex-col justify-between lg:min-h-screen">
+          <LeftWrapper />
+          <div className="mb-12 lg:flex gap-4 hidden">
+            <button>
+              <Icons.github className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+            </button>
+            <button>
+              <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+            </button>
+            <button>
+              <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+            </button>
+          </div>
+        </div>
       </div>
       <RightWrapper />
     </main>

@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { Icons } from "../icons";
 
 export default function About() {
   return (
@@ -17,6 +18,17 @@ export default function About() {
           by making project for about 6-8 months now.
         </span>
       </p>
+      <div className="mt-12 lg:hidden flex gap-4">
+        <button>
+          <Icons.github className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+        </button>
+        <button>
+          <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+        </button>
+        <button>
+          <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+        </button>
+      </div>
     </div>
   );
 }

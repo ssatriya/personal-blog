@@ -22,9 +22,12 @@ export default function ProjectCard() {
           />
           <div>
             <div className="flex gap-1 items-end">
-              <p className="font-semibold hover:text-accent transition-colors group-hover/xclone:text-accent">
+              <a
+                href="#"
+                className="font-semibold hover:text-accent transition-colors group-hover/xclone:text-accent"
+              >
                 Build a X Clone App
-              </p>
+              </a>
               <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
             </div>
             <p className="text-sm opacity-80 mt-4">
