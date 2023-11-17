@@ -1,6 +1,5 @@
 "use client";
 
-import { Github } from "lucide-react";
 import MainHeader from "./main-header";
 import Nav from "./nav";
 

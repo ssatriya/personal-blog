@@ -4,7 +4,6 @@ import * as React from "react";
 
 import LeftWrapper from "@/components/left/left-wrapper";
 import RightWrapper from "@/components/right/right-wrapper";
-import { Github, Linkedin, Twitter } from "lucide-react";
 import { Icons } from "@/components/icons";
 
 export default function Home() {
