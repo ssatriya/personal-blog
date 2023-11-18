@@ -10,10 +10,11 @@ export default function About() {
         About
       </h2>
       <p className="">
-        <span className="opacity-70">My name is</span> Muhammad Yusuf Donny
-        Satriyo, <span className="opacity-70">you can call me</span> Donny.{" "}
-        <span className="opacity-70">
-          I am an aspiring web developer from Indonesia. I currently using React
+        <span className="opacity-70 font-light">My name is</span> Muhammad Yusuf
+        Donny Satriyo, <span className="opacity-70">you can call me</span>{" "}
+        Donny.{" "}
+        <span className="opacity-70 font-light">
+          I am an aspiring web developer from Indonesia. I currently use React
           with Nextjs for most of my personal projects. I&apos;ve been learning
           by making project for about 6-8 months now.
         </span>

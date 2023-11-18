@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="hidden lg:block">
         <ProjectCard />
       </div>
-      <div>See all projects</div>
+      <div className="mt-4">See all projects</div>
     </div>
   );
 }

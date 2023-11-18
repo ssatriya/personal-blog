@@ -5,6 +5,7 @@ import * as React from "react";
 import LeftWrapper from "@/components/left/left-wrapper";
 import RightWrapper from "@/components/right/right-wrapper";
 import { Icons } from "@/components/icons";
+import Footer from "@/components/footer";
 
 export default function Home() {
   React.useEffect(() => {
