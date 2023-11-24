@@ -20,7 +20,8 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/xclone">
             <a
-              href="#"
+              href="https://x-clone.ssatriya.com/"
+              target="_blank"
               className="font-semibold hover:text-accent transition-colors group-hover/xclone:text-accent"
             >
               Build a X Clone App
@@ -46,7 +47,11 @@ export default function ProjectCardMobile() {
         />
         <div>
           <div className="flex gap-1 items-end group/typetest">
-            <a className="font-semibold hover:text-accent transition-colors group-hover/typetest:text-accent cursor-pointer">
+            <a
+              href="https://typing-ssatriya.vercel.app/"
+              target="_blank"
+              className="font-semibold hover:text-accent transition-colors group-hover/typetest:text-accent cursor-pointer"
+            >
               Build a Typing Test App
             </a>
             <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
@@ -71,7 +76,11 @@ export default function ProjectCardMobile() {
         />
         <div>
           <div className="flex gap-1 items-end group/quran">
-            <a className="font-semibold hover:text-accent transition-colors group-hover/quran:text-accent cursor-pointer">
+            <a
+              href="https://quran.ssatriya.com/"
+              target="_blank"
+              className="font-semibold hover:text-accent transition-colors group-hover/quran:text-accent cursor-pointer"
+            >
               Build a Al-Quran App
             </a>
             <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
@@ -96,7 +105,11 @@ export default function ProjectCardMobile() {
         />
         <div>
           <div className="flex gap-1 items-end group/dictionary">
-            <a className="font-semibold hover:text-accent transition-colors group-hover/dictionary:text-accent cursor-pointer">
+            <a
+              href="https://dictionary.ssatriya.com/"
+              target="_blank"
+              className="font-semibold hover:text-accent transition-colors group-hover/dictionary:text-accent cursor-pointer"
+            >
               Build an English Dictionary App
             </a>
             <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
