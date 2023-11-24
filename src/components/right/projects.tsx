@@ -14,7 +14,7 @@ export default function Projects() {
         <ProjectCard />
       </div>
       <button
-        aria-label="all projects"
+        aria-label="see all projects"
         className="mt-4 transition-all hover:bg-background/20 text-white/80 px-4 py-[2px] rounded-sm text-sm backdrop-filter backdrop-blur-sm"
       >
         See all projects
