@@ -25,13 +25,13 @@ export default function PageWrapper() {
           <div className="flex flex-col justify-between lg:min-h-screen">
             <LeftWrapper />
             <div className="mb-12 lg:flex gap-4 hidden">
-              <button>
+              <button aria-label="github">
                 <Icons.github className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
               </button>
-              <button>
+              <button aria-label="twitter">
                 <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
               </button>
-              <button>
+              <button aria-label="linkedin">
                 <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
               </button>
             </div>
