@@ -5,6 +5,7 @@ import xclone from "../../../public/x-clone.png";
 import typing from "../../../public/typingtest.png";
 import quran from "../../../public/quran.png";
 import dictionary from "../../../public/dictionary.png";
+import Pill from "../pill";
 
 export default function ProjectCardMobile() {
   return (
@@ -22,11 +23,11 @@ export default function ProjectCardMobile() {
             <a
               href="https://x-clone.ssatriya.com/"
               target="_blank"
-              className="font-semibold hover:text-accent transition-colors group-hover/xclone:text-accent"
+              className="font-semibold text-accent hover:text-text transition-colors group-hover/xclone:text-text"
             >
               Build a X Clone App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             A clone to one of the most popular social media App owned by Elon
@@ -34,6 +35,14 @@ export default function ProjectCardMobile() {
             mind. Get to know a new person and follow them to get their latest
             post.
           </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>Next.js</Pill>
+            <Pill>Tailwind CSS</Pill>
+            <Pill>Planetscale</Pill>
+          </div>
         </div>
       </div>
       {/*  */}
@@ -50,17 +59,25 @@ export default function ProjectCardMobile() {
             <a
               href="https://typing-ssatriya.vercel.app/"
               target="_blank"
-              className="font-semibold hover:text-accent transition-colors group-hover/typetest:text-accent cursor-pointer"
+              className="font-semibold text-accent hover:text-text transition-colors group-hover/typetest:text-text cursor-pointer"
             >
               Build a Typing Test App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/typetest:fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             Inspired by MonkeyType, this app is used to get the measurement of
             how fast your typing skill is. Used a generated random words and
             custom timing that you can choose.
           </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>Next.js</Pill>
+            <Pill>Tailwind CSS</Pill>
+            <Pill>Redux Toolkit</Pill>
+          </div>
         </div>
       </div>
 
@@ -79,17 +96,24 @@ export default function ProjectCardMobile() {
             <a
               href="https://quran.ssatriya.com/"
               target="_blank"
-              className="font-semibold hover:text-accent transition-colors group-hover/quran:text-accent cursor-pointer"
+              className="font-semibold text-accent hover:text-text transition-colors group-hover/quran:text-text cursor-pointer"
             >
               Build a Al-Quran App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/quran:fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             Learning to utilize an API of Qur&apos;an. Used the app for your
             daily read of qur&apos;an complete with the audio. Track your latest
             read with bookmark that save into localstorage.
           </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>Next.js</Pill>
+            <Pill>Tailwind CSS</Pill>
+          </div>
         </div>
       </div>
 
@@ -108,11 +132,11 @@ export default function ProjectCardMobile() {
             <a
               href="https://dictionary.ssatriya.com/"
               target="_blank"
-              className="font-semibold hover:text-accent transition-colors group-hover/dictionary:text-accent cursor-pointer"
+              className="font-semibold text-accent hover:text-text transition-colors group-hover/dictionary:text-text cursor-pointer"
             >
               Build an English Dictionary App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/dictionary:fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             One of the challenge from FrontendMentor.io that utilize an English
@@ -120,6 +144,13 @@ export default function ProjectCardMobile() {
             button. The response included audio on how to pronounce it if it is
             available.
           </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>Next.js</Pill>
+            <Pill>Tailwind CSS</Pill>
+          </div>
         </div>
       </div>
     </div>

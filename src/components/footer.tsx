@@ -1,12 +1,8 @@
 export default function Footer() {
   return (
-    <div className="container flex items-center justify-center mb-12 z-40">
+    <div className="container flex items-center mb-12 z-40">
       <p className="text-sm">
-        <span className="opacity-70 font-light">This site is inspired by </span>
-        <a target="__blank" href="https://brittanychiang.com/">
-          Brittany Chiang
-        </a>
-        . <span className="opacity-70 font-light">Coded in</span>{" "}
+        <span className="opacity-70 font-light">Coded in</span>{" "}
         <a target="__blank" href="https://code.visualstudio.com/">
           Visual Studio Code
         </a>
