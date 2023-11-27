@@ -25,7 +25,7 @@ export default function ProjectCard() {
             <div>
               <div className="flex gap-1 items-end">
                 <p className="font-semibold text-accent hover:text-text transition-colors group-hover/xclone:text-text">
-                  Build a X Clone App
+                  X Clone App
                 </p>
                 <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
               </div>
@@ -61,7 +61,7 @@ export default function ProjectCard() {
             <div>
               <div className="flex gap-1 items-end">
                 <p className="font-semibold text-accent hover:text-text transition-colors group-hover/typetest:text-text">
-                  Build a Typing Test App
+                  Typing Test App
                 </p>
                 <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/typetest:fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
               </div>
@@ -96,7 +96,7 @@ export default function ProjectCard() {
             <div>
               <div className="flex gap-1 items-end">
                 <p className="font-semibold text-accent hover:text-text transition-colors group-hover/quran:text-text">
-                  Build a Al-Quran App
+                  Al-Quran App
                 </p>
                 <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/quran:fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
               </div>
@@ -130,15 +130,15 @@ export default function ProjectCard() {
             <div>
               <div className="flex gap-1 items-end">
                 <p className="font-semibold text-accent hover:text-text transition-colors group-hover/dictionary:text-text">
-                  Build an English Dictionary App
+                  English Dictionary App
                 </p>
                 <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/dictionary:fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
               </div>
               <p className="text-sm opacity-70 font-light mt-4">
                 One of the challenge from FrontendMentor.io that utilize an
                 English dictionary API. Input the word you want to search and
-                hit the search button. The response included audio on how to
-                pronounce it if it is available.
+                hit the search button. The response from the API included audio
+                on how to pronounce it if it is available.
               </p>
               <div className="flex flex-wrap">
                 <Pill>TypeScript</Pill>
