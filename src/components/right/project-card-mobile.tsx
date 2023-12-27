@@ -21,7 +21,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/xclone">
             <a
-              href="https://x-clone.ssatriya.com/"
+              href="https://x.ssatriya.com/"
               target="_blank"
               className="font-semibold text-accent hover:text-text transition-colors group-hover/xclone:text-text"
             >
@@ -30,10 +30,9 @@ export default function ProjectCardMobile() {
             <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
-            A clone to one of the most popular social media App owned by Elon
-            Musk, X. Signup using SSO (email) and start posting what you have in
-            mind. Get to know a new person and follow them to get their latest
-            post.
+            Popular social media that changed it&apos;s from Twitter to X.
+            Signup using email and start posting what you have in mind. Get to
+            know a new person and follow them to get their latest post.
           </p>
           <div className="flex flex-wrap">
             <Pill>TypeScript</Pill>
@@ -57,7 +56,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/typetest">
             <a
-              href="https://typing-ssatriya.vercel.app/"
+              href="https://typingssatriya.com/"
               target="_blank"
               className="font-semibold text-accent hover:text-text transition-colors group-hover/typetest:text-text cursor-pointer"
             >
