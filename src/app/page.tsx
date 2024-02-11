@@ -6,7 +6,14 @@ const PageWrapperComponent = dynamic(
   () => {
     return import("../components/page-wrapper");
   },
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => (
+      <div className="relative w-full min-h-screen flex items-center justify-center">
+        <div className="loader" />
+      </div>
+    ),
+  }
 );
 
 export default function Home() {
