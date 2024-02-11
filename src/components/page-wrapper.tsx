@@ -31,7 +31,7 @@ export default function PageWrapper() {
                 aria-label="Github link"
                 target="_blank"
               >
-                <Button size="icon">
+                <Button aria-label="Github link" size="icon">
                   <Icons.github className="h-6 w-6 fill-slate-600 group-hover:fill-slate-400 transition-colors" />
                 </Button>
               </a>
@@ -40,7 +40,7 @@ export default function PageWrapper() {
                 aria-label="Twitter link"
                 target="_blank"
               >
-                <Button size="icon">
+                <Button aria-label="Twitter link" size="icon">
                   <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
                 </Button>
               </a>
@@ -49,7 +49,7 @@ export default function PageWrapper() {
                 aria-label="Linkedin link"
                 target="_blank"
               >
-                <Button size="icon">
+                <Button aria-label="Linkedin link" size="icon">
                   <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
                 </Button>
               </a>
