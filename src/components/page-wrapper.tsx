@@ -25,17 +25,29 @@ export default function PageWrapper() {
           <div className="flex flex-col justify-between lg:min-h-screen">
             <LeftWrapper />
             <div className="mb-12 lg:flex gap-4 hidden">
-              <a href="https://github.com/ssatriya" target="_blank">
+              <a
+                href="https://github.com/ssatriya"
+                aria-label="Github link"
+                target="_blank"
+              >
                 <button aria-label="github">
                   <Icons.github className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
                 </button>
               </a>
-              <a href="https://twitter.com/ssatriyaaa" target="_blank">
+              <a
+                href="https://twitter.com/ssatriyaaa"
+                aria-label="Twitter link"
+                target="_blank"
+              >
                 <button aria-label="twitter">
                   <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
                 </button>
               </a>
-              <a href="https://www.linkedin.com/in/ssatriya/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/ssatriya/"
+                aria-label="Linkedin link"
+                target="_blank"
+              >
                 <button aria-label="linkedin">
                   <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
                 </button>
