@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Icons } from "../icons";
+import { Button } from "../ui/button";
 
 export default function About() {
   return (
@@ -26,20 +27,32 @@ export default function About() {
         to innovative projects.
       </p>
       <div className="mt-12 lg:hidden flex gap-4 relative">
-        <a href="https://github.com/ssatriya" target="_blank">
-          <button>
-            <Icons.github className="h-6 w-6 fill-slate-600" />
-          </button>
+        <a
+          href="https://github.com/ssatriya"
+          aria-label="Github link"
+          target="_blank"
+        >
+          <Button size="icon">
+            <Icons.github className="h-6 w-6 fill-slate-600 group-hover:fill-slate-400 transition-colors" />
+          </Button>
         </a>
-        <a href="https://twitter.com/ssatriyaaa" target="_blank">
-          <button>
-            <Icons.twitter className="h-6 w-6 fill-slate-600" />
-          </button>
+        <a
+          href="https://twitter.com/ssatriyaaa"
+          aria-label="Twitter link"
+          target="_blank"
+        >
+          <Button size="icon">
+            <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+          </Button>
         </a>
-        <a href="https://www.linkedin.com/in/ssatriya/" target="_blank">
-          <button>
-            <Icons.linkedIn className="h-6 w-6 fill-slate-600" />
-          </button>
+        <a
+          href="https://www.linkedin.com/in/ssatriya/"
+          aria-label="Linkedin link"
+          target="_blank"
+        >
+          <Button size="icon">
+            <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
+          </Button>
         </a>
       </div>
     </div>
