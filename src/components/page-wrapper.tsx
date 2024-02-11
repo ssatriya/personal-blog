@@ -6,6 +6,7 @@ import LeftWrapper from "@/components/left/left-wrapper";
 import RightWrapper from "@/components/right/right-wrapper";
 import { Icons } from "@/components/icons";
 import { Particle } from "jparticles";
+import { Button } from "./ui/button";
 
 export default function PageWrapper() {
   React.useEffect(() => {
@@ -30,27 +31,27 @@ export default function PageWrapper() {
                 aria-label="Github link"
                 target="_blank"
               >
-                <button aria-label="Github link">
-                  <Icons.github className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
-                </button>
+                <Button size="icon">
+                  <Icons.github className="h-6 w-6 fill-slate-600 group-hover:fill-slate-400 transition-colors" />
+                </Button>
               </a>
               <a
                 href="https://twitter.com/ssatriyaaa"
                 aria-label="Twitter link"
                 target="_blank"
               >
-                <button aria-label="Twitter link">
+                <Button size="icon">
                   <Icons.twitter className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
-                </button>
+                </Button>
               </a>
               <a
                 href="https://www.linkedin.com/in/ssatriya/"
                 aria-label="Linkedin link"
                 target="_blank"
               >
-                <button aria-label="Linkedin link">
+                <Button size="icon">
                   <Icons.linkedIn className="h-6 w-6 fill-slate-600 hover:fill-slate-400 transition-colors" />
-                </button>
+                </Button>
               </a>
             </div>
           </div>

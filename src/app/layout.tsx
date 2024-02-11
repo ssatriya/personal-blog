@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700", "500"] });
 
@@ -16,7 +17,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased`}>{children}</body>
+      <body
+        className={cn(
+          "min-h-screen dark font-sans antialiased bg-[#160A1E]",
+          poppins.className
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 }

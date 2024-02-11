@@ -13,7 +13,7 @@ export default function ProjectCard() {
   return (
     <div className="flex flex-col gap-8 lg:gap-4 group/list">
       <a href="https://x-clone.ssatriya.com/" target="_blank">
-        <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/xclone lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
+        <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/xclone lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
               className="rounded-sm object-contain"
@@ -24,10 +24,10 @@ export default function ProjectCard() {
             />
             <div>
               <div className="flex gap-1 items-end">
-                <p className="font-semibold text-accent hover:text-text transition-colors group-hover/xclone:text-text">
+                <p className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text">
                   X Clone App
                 </p>
-                <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
+                <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
               </div>
               <p className="text-sm opacity-70 mt-4 font-light">
                 A clone to one of the most popular social media App owned by
@@ -49,7 +49,7 @@ export default function ProjectCard() {
       </a>
       {/*  */}
       <a href="https://typing-ssatriya.vercel.app/" target="_blank">
-        <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/typetest lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
+        <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/typetest lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
               className="rounded-sm object-contain"
@@ -60,10 +60,10 @@ export default function ProjectCard() {
             />
             <div>
               <div className="flex gap-1 items-end">
-                <p className="font-semibold text-accent hover:text-text transition-colors group-hover/typetest:text-text">
+                <p className="font-semibold text-foreground hover:text-text transition-colors group-hover/typetest:text-text">
                   Typing Test App
                 </p>
-                <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/typetest:fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
+                <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/typetest:fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
               </div>
               <p className="text-sm opacity-70 font-light mt-4">
                 Inspired by MonkeyType, this app is used to get the measurement
@@ -84,7 +84,7 @@ export default function ProjectCard() {
       </a>
       {/*  */}
       <a href="https://quran.ssatriya.com/" target="_blank">
-        <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/quran lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
+        <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/quran lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
               className="rounded-sm object-contain"
@@ -95,10 +95,10 @@ export default function ProjectCard() {
             />
             <div>
               <div className="flex gap-1 items-end">
-                <p className="font-semibold text-accent hover:text-text transition-colors group-hover/quran:text-text">
+                <p className="font-semibold text-foreground hover:text-text transition-colors group-hover/quran:text-text">
                   Al-Quran App
                 </p>
-                <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/quran:fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
+                <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/quran:fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
               </div>
               <p className="text-sm opacity-70 font-light mt-4">
                 Learning to utilize an API of Qur&apos;an. Used the app for your
@@ -118,7 +118,7 @@ export default function ProjectCard() {
       </a>
       {/*  */}
       <a href="https://dictionary.ssatriya.com/" target="_blank">
-        <div className="lg:hover:bg-background lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/dictionary lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
+        <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/dictionary lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
               className="rounded-sm object-contain"
@@ -129,10 +129,10 @@ export default function ProjectCard() {
             />
             <div>
               <div className="flex gap-1 items-end">
-                <p className="font-semibold text-accent hover:text-text transition-colors group-hover/dictionary:text-text">
+                <p className="font-semibold text-foreground hover:text-text transition-colors group-hover/dictionary:text-text">
                   English Dictionary App
                 </p>
-                <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/dictionary:fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
+                <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/dictionary:fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
               </div>
               <p className="text-sm opacity-70 font-light mt-4">
                 One of the challenge from FrontendMentor.io that utilize an

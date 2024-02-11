@@ -23,11 +23,11 @@ export default function ProjectCardMobile() {
             <a
               href="https://x.ssatriya.com/"
               target="_blank"
-              className="font-semibold text-accent hover:text-text transition-colors group-hover/xclone:text-text"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text"
             >
               X Clone App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             Popular social media that changed it&apos;s from Twitter to X.
@@ -58,11 +58,11 @@ export default function ProjectCardMobile() {
             <a
               href="https://typingssatriya.com/"
               target="_blank"
-              className="font-semibold text-accent hover:text-text transition-colors group-hover/typetest:text-text cursor-pointer"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/typetest:text-text cursor-pointer"
             >
               Typing Test App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/typetest:fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/typetest:fill-text group-hover/typetest:mb-1 group-hover/typetest:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             Inspired by MonkeyType, this app is used to get the measurement of
@@ -95,11 +95,11 @@ export default function ProjectCardMobile() {
             <a
               href="https://quran.ssatriya.com/"
               target="_blank"
-              className="font-semibold text-accent hover:text-text transition-colors group-hover/quran:text-text cursor-pointer"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/quran:text-text cursor-pointer"
             >
               Al-Quran App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/quran:fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/quran:fill-text group-hover/quran:mb-1 group-hover/quran:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             Learning to utilize an API of Qur&apos;an. Used the app for your
@@ -131,11 +131,11 @@ export default function ProjectCardMobile() {
             <a
               href="https://dictionary.ssatriya.com/"
               target="_blank"
-              className="font-semibold text-accent hover:text-text transition-colors group-hover/dictionary:text-text cursor-pointer"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/dictionary:text-text cursor-pointer"
             >
               English Dictionary App
             </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-accent group-hover/dictionary:fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/dictionary:fill-text group-hover/dictionary:mb-1 group-hover/dictionary:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
             One of the challenge from FrontendMentor.io that utilize an English
