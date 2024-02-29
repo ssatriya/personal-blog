@@ -4,12 +4,50 @@ import { Icons } from "@/components/icons";
 import xclone from "../../../public/x-clone.png";
 import typing from "../../../public/typingtest.png";
 import quran from "../../../public/quran.png";
+import ig from "../../../public/ig.png";
 import dictionary from "../../../public/dictionary.png";
 import Pill from "../pill";
 
 export default function ProjectCardMobile() {
   return (
     <div className="flex flex-col gap-8 lg:gap-4 group/list">
+      {/*  */}
+      <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
+        <Image
+          className="rounded-sm object-contain"
+          src={ig}
+          height={100}
+          width={200}
+          alt="instagram clone app"
+        />
+        <div>
+          <div className="flex gap-1 items-end group/igclone">
+            <a
+              href="https://next-ig.ssatriya.com/"
+              target="_blank"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/igclone:text-text"
+            >
+              Instagram Clone App
+            </a>
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/igclone:fill-text group-hover/igclone:mb-1 group-hover/igclone:ml-1 transition-all" />
+          </div>
+          <p className="text-sm opacity-80 mt-4">
+            Another social media clone app, Instagram. Sign up using email and
+            upload your favorite images. Start following another user to see
+            what images they share.
+          </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>Next.js</Pill>
+            <Pill>Shadcn UI</Pill>
+            <Pill>Tailwind CSS</Pill>
+            <Pill>Neon</Pill>
+          </div>
+        </div>
+      </div>
+      {/*  */}
       <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
         <Image
           className="rounded-sm object-contain"
@@ -30,15 +68,16 @@ export default function ProjectCardMobile() {
             <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
           </div>
           <p className="text-sm opacity-80 mt-4">
-            Popular social media that changed it&apos;s from Twitter to X.
-            Signup using email and start posting what you have in mind. Get to
-            know a new person and follow them to get their latest post.
+            Popular social media that changed it&apos;s from Twitter to X. Sign
+            up using email and start posting what you have in mind. Get to know
+            a new person and follow them to get their latest post.
           </p>
           <div className="flex flex-wrap">
             <Pill>TypeScript</Pill>
             <Pill>Javascript</Pill>
             <Pill>React</Pill>
             <Pill>Next.js</Pill>
+            <Pill>Next UI</Pill>
             <Pill>Tailwind CSS</Pill>
             <Pill>Planetscale</Pill>
           </div>
