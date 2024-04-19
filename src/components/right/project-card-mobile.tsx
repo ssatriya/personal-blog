@@ -21,6 +21,44 @@ export default function ProjectCardMobile() {
           alt="instagram clone app"
         />
         <div>
+          <div className="flex gap-1 items-end group/igclonegraphql">
+            <a
+              href="https://test.ssatriya.codes/"
+              target="_blank"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/igclonegraphql:text-text"
+            >
+              Instagram Clone with React Vite + Graphql
+            </a>
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/igclonegraphql:fill-text group-hover/igclonegraphql:mb-1 group-hover/igclonegraphql:ml-1 transition-all" />
+          </div>
+          <p className="text-sm opacity-80 mt-4">
+            Another version of my previous Instagram Clone App. This time I used
+            React Vite and Graphql for the backend. Sign up using email and
+            upload your favorite images. Start following another user to see
+            what images they share.
+          </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>GraphQL</Pill>
+            <Pill>NodeJS</Pill>
+            <Pill>Shadcn UI</Pill>
+            <Pill>Tailwind CSS</Pill>
+            <Pill>Neon</Pill>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
+        <Image
+          className="rounded-sm object-contain"
+          src={ig}
+          height={100}
+          width={200}
+          alt="instagram clone app"
+        />
+        <div>
           <div className="flex gap-1 items-end group/igclone">
             <a
               href="https://next-ig.ssatriya.com/"
