@@ -23,7 +23,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/igclonegraphql">
             <a
-              href="https://test.ssatriya.codes/"
+              href="https://github.com/ssatriya/ig-graphql"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/igclonegraphql:text-text"
             >
@@ -61,7 +61,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/igclone">
             <a
-              href="https://next-ig.ssatriya.com/"
+              href="https://next-ig1.vercel.app/"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/igclone:text-text"
             >
@@ -97,7 +97,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/xclone">
             <a
-              href="https://x.ssatriya.com/"
+              href="https://tw-next1.vercel.app/"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text"
             >
@@ -133,7 +133,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/typetest">
             <a
-              href="https://typingssatriya.com/"
+              href="https://typing-ssatriya.vercel.app/"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/typetest:text-text cursor-pointer"
             >
@@ -170,7 +170,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/quran">
             <a
-              href="https://quran.ssatriya.com/"
+              href="https://quran-app01.vercel.app/"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/quran:text-text cursor-pointer"
             >
@@ -206,7 +206,7 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/dictionary">
             <a
-              href="https://dictionary.ssatriya.com/"
+              href="https://dict-app01.vercel.app/"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/dictionary:text-text cursor-pointer"
             >

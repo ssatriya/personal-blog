@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import { Icons } from "@/components/icons";
-import xclone from "../../../public/x-clone.png";
+import xclone from "/public/x-clone.png";
 import typing from "../../../public/typingtest.png";
 import quran from "../../../public/quran.png";
 import ig from "../../../public/ig.png";
@@ -14,7 +14,7 @@ export default function ProjectCard() {
   return (
     <div className="flex flex-col gap-8 lg:gap-4 group/list">
       {/*  */}
-      <a href="https://test.ssatriya.codes/" target="_blank">
+      <a href="https://github.com/ssatriya/ig-graphql" target="_blank">
         <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/igclonegraphql lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
@@ -53,7 +53,7 @@ export default function ProjectCard() {
       </a>
       {/*  */}
       {/*  */}
-      <a href="https://next-ig.ssatriya.com/" target="_blank">
+      <a href="https://next-ig1.vercel.app/" target="_blank">
         <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/igclone lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
@@ -89,7 +89,7 @@ export default function ProjectCard() {
         </div>
       </a>
       {/*  */}
-      <a href="https://x-clone.ssatriya.com/" target="_blank">
+      <a href="https://tw-next1.vercel.app/" target="_blank">
         <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/xclone lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
@@ -161,7 +161,7 @@ export default function ProjectCard() {
         </div>
       </a>
       {/*  */}
-      <a href="https://quran.ssatriya.com/" target="_blank">
+      <a href="https://quran-app01.vercel.app/" target="_blank">
         <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/quran lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
@@ -195,7 +195,7 @@ export default function ProjectCard() {
         </div>
       </a>
       {/*  */}
-      <a href="https://dictionary.ssatriya.com/" target="_blank">
+      <a href="https://dict-app01.vercel.app/" target="_blank">
         <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/dictionary lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
