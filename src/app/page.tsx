@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 const PageWrapperComponent = dynamic(
   () => {
-    return import("../components/page-wrapper");
+    return import("@/components/page-wrapper");
   },
   {
     ssr: false,

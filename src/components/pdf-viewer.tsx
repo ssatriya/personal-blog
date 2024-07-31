@@ -7,13 +7,9 @@ import "react-pdf/dist/Page/TextLayer.css";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import { Button } from "./ui/button";
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  "pdfjs-dist/build/pdf.worker.min.mjs",
-  import.meta.url
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = "/build/pdf.worker.min.mjs";
 
 const PDFViewer = () => {
-  const [pageNumber, setPageNumber] = useState(1);
   const [isLoading, setIsLoading] = useState(true);
 
   const onDocumentLoadSuccess = () => {
@@ -28,7 +24,7 @@ const PDFViewer = () => {
     <div className="min-h-screen w-full flex items-center justify-center gap-6">
       <Button onClick={downloadPDF}>Download</Button>
       <Document file="/resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} scale={1.1} />
+        <Page pageNumber={1} scale={1.1} />
       </Document>
     </div>
   );
