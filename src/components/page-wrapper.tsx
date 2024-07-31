@@ -27,7 +27,7 @@ export default function PageWrapper() {
           <div className="flex flex-col justify-between lg:min-h-screen">
             <LeftWrapper />
             <div className="mb-12 lg:flex gap-4 hidden">
-              <a href="/resume" aria-label="Github link" target="_blank">
+              <a href="/resume.pdf" aria-label="Github link" target="_blank">
                 <Button aria-label="Github link" size="icon">
                   <File className="h-6 w-6 fill-slate-600 group-hover:fill-slate-400 transition-colors" />
                 </Button>
