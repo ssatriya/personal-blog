@@ -15,6 +15,42 @@ export default function ProjectCardMobile() {
       <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
         <Image
           className="rounded-sm object-contain"
+          src={xclone}
+          height={100}
+          width={200}
+          alt="x-clone"
+        />
+        <div>
+          <div className="flex gap-1 items-end group/xclone">
+            <a
+              href="https://x-clone-nine.vercel.app/"
+              target="_blank"
+              className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text"
+            >
+              Latest version of X Clone App
+            </a>
+            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
+          </div>
+          <p className="text-sm opacity-80 mt-4">
+            Popular social media that changed it&apos;s from Twitter to X. Sign
+            up using email and start posting what you have in mind. Get to know
+            a new person and follow them to get their latest post.
+          </p>
+          <div className="flex flex-wrap">
+            <Pill>TypeScript</Pill>
+            <Pill>Javascript</Pill>
+            <Pill>React</Pill>
+            <Pill>Next.js</Pill>
+            <Pill>Headless UI</Pill>
+            <Pill>Tailwind CSS</Pill>
+            <Pill>Supabase</Pill>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
+        <Image
+          className="rounded-sm object-contain"
           src={ig}
           height={100}
           width={200}
@@ -82,42 +118,6 @@ export default function ProjectCardMobile() {
             <Pill>Shadcn UI</Pill>
             <Pill>Tailwind CSS</Pill>
             <Pill>Neon</Pill>
-          </div>
-        </div>
-      </div>
-      {/*  */}
-      <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
-        <Image
-          className="rounded-sm object-contain"
-          src={xclone}
-          height={100}
-          width={200}
-          alt="x-clone"
-        />
-        <div>
-          <div className="flex gap-1 items-end group/xclone">
-            <a
-              href="https://x-clone-nine.vercel.app/"
-              target="_blank"
-              className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text"
-            >
-              Latest version of X Clone App
-            </a>
-            <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
-          </div>
-          <p className="text-sm opacity-80 mt-4">
-            Popular social media that changed it&apos;s from Twitter to X. Sign
-            up using email and start posting what you have in mind. Get to know
-            a new person and follow them to get their latest post.
-          </p>
-          <div className="flex flex-wrap">
-            <Pill>TypeScript</Pill>
-            <Pill>Javascript</Pill>
-            <Pill>React</Pill>
-            <Pill>Next.js</Pill>
-            <Pill>Next UI</Pill>
-            <Pill>Tailwind CSS</Pill>
-            <Pill>Planetscale</Pill>
           </div>
         </div>
       </div>
