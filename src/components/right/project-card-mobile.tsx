@@ -97,11 +97,11 @@ export default function ProjectCardMobile() {
         <div>
           <div className="flex gap-1 items-end group/xclone">
             <a
-              href="https://tw-next1.vercel.app/"
+              href="https://x-clone-nine.vercel.app/"
               target="_blank"
               className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text"
             >
-              X Clone App
+              Latest version of X Clone App
             </a>
             <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
           </div>

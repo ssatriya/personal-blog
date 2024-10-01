@@ -89,7 +89,7 @@ export default function ProjectCard() {
         </div>
       </a>
       {/*  */}
-      <a href="https://tw-next1.vercel.app/" target="_blank">
+      <a href="https://x-clone-nine.vercel.app/" target="_blank">
         <div className="lg:hover:bg-background/30 lg:hover:rounded-sm lg:hover:bg-clip-padding lg:hover:backdrop-filter lg:hover:backdrop-blur-sm lg:hover:bg-opacity-10 lg:transition-all lg:cursor-pointer lg:px-6 lg:py-6 lg:rounded-sm group/xclone lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
           <div className="flex flex-col-reverse md:flex-row gap-4 w-full md:gap-6 items-start">
             <Image
@@ -102,7 +102,7 @@ export default function ProjectCard() {
             <div>
               <div className="flex gap-1 items-end">
                 <p className="font-semibold text-foreground hover:text-text transition-colors group-hover/xclone:text-text">
-                  X Clone App
+                  Latest version of X Clone App
                 </p>
                 <Icons.arrowUpRight className="w-4 h-4 fill-foreground group-hover/xclone:fill-text group-hover/xclone:mb-1 group-hover/xclone:ml-1 transition-all" />
               </div>
